@@ -9,38 +9,38 @@
 <body>
   
   <form action="/submit" method="post">
-    <label for="firstName">First Name:</label>
+    <label for="firstName">vezeteknev:</label>
     <input type="text" id="firstName" name="firstName" required>
     <br>
-    <label for="lastName">Last Name:</label>
+    <label for="lastName">Keresztnev:</label>
     <input type="text" id="lastName" name="lastName" required>
     <br>
-    <label for="birthdate">Birthdate:</label>
+    <label for="birthdate">születési dátum:</label>
     <input type="date" id="birthdate" name="birthdate" required>
     <br>
-    <label for="newsletter">Subscribe to Newsletter:</label>
+    <label for="newsletter">ize:</label>
     <input type="checkbox" id="newsletter" name="newsletter">
     <br>
-    <label for="interests">Interests:</label>
+    <label for="interests">valami:</label>
     <br>
     <input type="checkbox" id="interests1" name="interests[]" value="interest1">
-    <label for="interests1">Interest 1</label>
+    <label for="interests1">valami 1</label>
     <br>
     <input type="checkbox" id="interests2" name="interests[]" value="interest2">
-    <label for="interests2">Interest 2</label>
+    <label for="interests2">valami 2</label>
     <br>
     <input type="checkbox" id="interests3" name="interests[]" value="interest3">
-    <label for="interests3">Interest 3</label>
+    <label for="interests3">valami 3</label>
     <br>
-    <label for="gender">Gender:</label>
+    <label for="gender">Neme:</label>
     <select id="gender" name="gender" required>
       <option value="">Select Gender</option>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
-      <option value="other">Other</option>
+      <option value="male">Férfi</option>
+      <option value="female">nő</option>
+      <option value="other">something is wrong</option>
     </select>
     <br>
-    <label for="feedback">Feedback:</label>
+    <label for="feedback">visszajelzes:</label>
     <textarea id="feedback" name="feedback"></textarea>
     <input type="submit" value="Submit">
   </form>
