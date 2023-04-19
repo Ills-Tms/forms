@@ -8,14 +8,21 @@
 </head>
 <body>
   
-  <form action="/submit" method="post">
-    <label for="firstName">vezeteknev:</label>
-    <input type="text" id="firstName" name="firstName" required>
+  <form action="" id="urlap">
+    <label for="nev">Név:</label>
+    <input type="text" name="nev" id="nev">
     <br>
-    <label for="lastName">Keresztnev:</label>
-    <input type="text" id="lastName" name="lastName" required>
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email">
     <br>
-    <label for="birthdate">születési dátum:</label>
+    <label for="suly">Súly:</label>
+    <input type="number" name="suly" id="suly">Kg
+    <br>
+    
+        <label for="a1">a1:</label>
+        <input type="text" name="a1" id="a1" pattern="[0-9]*">
+        
+        <label for="birthdate">születési dátum:</label>
     <input type="date" id="birthdate" name="birthdate" required>
     <br>
     <label for="newsletter">ize:</label>
@@ -74,8 +81,7 @@
   <label for="favNumber3">szám3:</label>
   <input type="number" id="favNumber3" name="favNumber3" min="1" max="100">
   <br>
-  
-    <input type="submit" value="Submit">
+        <button>Beküld</button>
   </form>
     
 </body>
